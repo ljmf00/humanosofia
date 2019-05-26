@@ -74,14 +74,28 @@
 }
 
 .center-container {
-	position: absolute;
-	top: 50%;
-	left: 0;
-	right: 0;
-	-ms-transform: translateX(0%) translateY(-50%);
-	-webkit-transform: translate(0%, -50%);
-	transform: translate(0%, -50%);
-	margin: auto;
+
+}
+
+.challenge-col-margin {
+	margin: 15px;
+}
+
+@media (min-width: 600px) {
+	.center-container {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		right: 0;
+		-ms-transform: translateX(0%) translateY(-50%);
+		-webkit-transform: translate(0%, -50%);
+		transform: translate(0%, -50%);
+		margin: auto;
+	}
+
+	.challenge-col-margin {
+
+	}
 }
 
 .challenge-center {

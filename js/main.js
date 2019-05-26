@@ -26,7 +26,7 @@ $.ajax({
 					$("#challenge-" + i + "-content").toggleClass("challenge-hidden");
 					let colorID = Math.floor(Math.random() * coolColors.length);
 					$("#challenge-"+i+"-front").toggleClass(coolColors[colorID]);
-					coolColors.splice(colorID, 1)
+					coolColors.splice(colorID, 1);
 					$(".challenge-front").toggleClass("lighten-2");
 				}
 			}
