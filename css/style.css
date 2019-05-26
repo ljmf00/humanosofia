@@ -77,8 +77,11 @@
 
 }
 
-.challenge-col-margin {
-	margin: 15px;
+@media (max-width: 600px) {
+
+	.challenge-col-margin {
+		margin: 15px;
+	}
 }
 
 @media (min-width: 600px) {
@@ -93,9 +96,7 @@
 		margin: auto;
 	}
 
-	.challenge-col-margin {
-
-	}
+	.challenge-col-margin {}
 }
 
 .challenge-center {
